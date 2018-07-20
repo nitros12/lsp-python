@@ -18,7 +18,7 @@
 						  dir
 						  nil
               "setup.py\\|Pipfile\\|setup.cfg\\|tox.ini")))
-			 '("pyls"))
+			 '("dotnet" "run" "-p" "dev/ptvs/Python/Product/VSCode/AnalysisVsc/"))
 
 (provide 'lsp-python)
 ;;; lsp-python.el ends here
